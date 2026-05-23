@@ -1,36 +1,31 @@
-## Usage
+# Vicinage + Solid on Vite
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+This template provides a minimal setup to get [Vicinage](https://github.com/chbybnwr/vicinage) + Solid working on Vite.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+[![Open in Codespaces](https://img.shields.io/badge/codespaces-1f2328?logo=github&style=for-the-badge)](https://codespaces.new/chbybnwr/vicinage-solid-starter) [![Open in CodeSandbox](https://img.shields.io/badge/codesandbox-e4ff80?logo=codesandbox&style=for-the-badge&logoColor=191919)](https://codesandbox.io/s/github/chbybnwr/vicinage-solid-starter) [![Open in StackBlitz](https://img.shields.io/badge/stackblitz-1689f8?logo=stackblitz&style=for-the-badge)](https://stackblitz.com/~/github/chbybnwr/vicinage-solid-starter)
+
+## Getting Started
+
+First, run the development server:
 
 ```bash
-$ npm install # or pnpm install or yarn install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Available Scripts
+You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
 
-In the project directory, you can run:
+## Learn More
 
-### `npm run dev` or `npm start`
+To learn more about Vicinage, take a look at the following resources:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Vicinage Documentation](https://github.com/chbybnwr/vicinage) - learn about Vicinage features and API.
 
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
-
-## This project was created with the [Solid CLI](https://github.com/solidjs-community/solid-cli)
+You can check out [the Vicinage GitHub repository](https://github.com/chbybnwr/vicinage) - your feedback and contributions are welcome!
