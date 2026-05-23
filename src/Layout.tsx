@@ -7,7 +7,7 @@ import { NextStep } from './components/NextStep'
 import { Ticks } from './components/Ticks'
 import { children, ParentComponent } from 'solid-js'
 
-export const RootLayout: ParentComponent = function (props) {
+export const Layout: ParentComponent = function (props) {
   return (
     <>
       <div

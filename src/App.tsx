@@ -9,7 +9,7 @@ import { spacing } from 'solarwindcss/spacing.stylex'
 import { Logical } from './examples/Logical'
 import { Dynamic as RuntimeDynamic } from './examples/Dynamic'
 import { Responsive } from './examples/Responsive'
-import { RootLayout } from './Layout'
+import { Layout } from './Layout'
 import { createSignal } from 'solid-js'
 import { Dynamic } from 'solid-js/web'
 
@@ -26,7 +26,7 @@ export default function Home() {
   const [selectedExample, setSelectedExample] = createSignal('Start')
 
   return (
-    <RootLayout>
+    <Layout>
       <div
         {...apply({
           gap: spacing[8],
@@ -58,6 +58,6 @@ export default function Home() {
           </button>
         ))}
       </div>
-    </RootLayout>
+    </Layout>
   )
 }
