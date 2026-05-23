@@ -1,0 +1,20 @@
+{
+  "apply a style": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "apply",
+    "body": [
+      "{...apply({",
+      "  $1",
+      "}$2)}",
+      //
+    ],
+  },
+  "apply mixed styles": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "apply-mixed",
+    "body": [
+      "{...apply($1)}",
+      //
+    ],
+  },
+}

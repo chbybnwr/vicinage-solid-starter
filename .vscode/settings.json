@@ -1,0 +1,27 @@
+{
+  "js/ts.tsdk.path": "./node_modules/typescript/lib/",
+  "js/ts.tsserver.node.path": "node",
+  "js/ts.experimental.useTsgo": true,
+  "typescript.native-preview.tsdk": "./node_modules/@typescript/native-preview",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+
+  "[javascriptreact][typescriptreact]": {
+    "explicitFolding.rules": [
+      {
+        // "autoFold": true,
+        "foldLastLine": true,
+        "beginRegex": "^\\s*<[a-zA-Z][a-zA-Z0-9-]*",
+        "endRegex": "(?<!=)>$"
+      }
+    ]
+  },
+
+  "files.readonlyInclude": {
+    "**/node_modules/**": true,
+    "package-lock.json": true,
+    "pnpm-lock.yaml": true
+  }
+}
